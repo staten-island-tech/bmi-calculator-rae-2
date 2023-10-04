@@ -8,10 +8,20 @@ test(45);
 //booleans true or false
 test(true); */
 //decare variables, define variables
-const num1 = Number(prompt("enter a number"));
-const num2 = Number(prompt("enter a number"));
+const num1 = Number(prompt("enter your weight in pounds"));
+const num2 = Number(prompt("enter your height in inches"));
 
-function add(x,y){
-    console.log(x + y);
+function multiply(x,y){
+    console.log(x * y);
 }
-add(num1,num2);
+multiply(num1,703);
+
+function multiply(x,x){
+    console.log(x*x);
+}
+multiply(num2,num2)
+
+function divide(x,y){
+    console.log(x/y);
+}
+divide()
