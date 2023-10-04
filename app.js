@@ -8,20 +8,41 @@ test(45);
 //booleans true or false
 test(true); */
 //decare variables, define variables
-const num1 = Number(prompt("enter your weight in pounds"));
-const num2 = Number(prompt("enter your height in inches"));
+function getBMI(h,w){
+    return BMI
+
+}
+
+function init(){
+    //get weight
+    //get height
+    const BMI = getBMI();
+    healthy(BMI);
+}
+
+
+const weight = Number(prompt("enter your weight in pounds"));
+const height = Number(prompt("enter your height in inches"));
+
 
 function multiply(x,y){
     console.log(x * y);
 }
-multiply(num1,703);
+multiply(weight,703);
 
-function multiply(x,x){
-    console.log(x*x);
+function square(height){
+    return height * height;
 }
-multiply(num2,num2)
 
 function divide(x,y){
     console.log(x/y);
 }
-divide()
+
+let b = w/h; 
+
+function healthy(BMI){
+
+    if (b < 85){
+        console.log("healthy etc.");
+}
+}
