@@ -17,6 +17,8 @@ function getBMI(h,w){
 
 }
 
+const b = ((w*703)/(h**2))
+
 function userhw(){
     const bmi = getBMI(h,w);
     if (bmi < 19){
