@@ -13,7 +13,7 @@
     }
 
 } */
-function test(x,y){
+/* function test(x,y){
     if(x<5 && y<5){
         console.log("small");
     } else if (x > 5 || y > 5){
@@ -22,3 +22,4 @@ function test(x,y){
 }
 test("44");
 
+ */
